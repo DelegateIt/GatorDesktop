@@ -6,7 +6,7 @@ A basic desktop application:
 
 ## To Use
 
-To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
+To run this application you'll need [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
 
 ```bash
 # Verify Node installation
@@ -15,8 +15,10 @@ $ node --version && npm --version
 $ git clone https://github.com/DelegateIt/GatorDesktop.git
 # Go into the repository
 $ cd GatorDesktop
-# Install dependencies and run the app
-$ npm install && npm start
+# Install dependencies
+$ npm install
+# Run the app
+$ npm start
 ```
 
 #### Electron License [MIT](LICENSE.md)
